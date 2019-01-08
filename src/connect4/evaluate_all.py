@@ -18,25 +18,26 @@ class TestSetup():
         self.observation_space = self.env.reset().shape
         self.action_space = self.env.validMoves().size
         self.dqn = []  
+        self.dqn_name = []
         
-        os.chdir('to_evaluate') # has no effect on search path, but needed to save evaluations in the right place
-        
-        for file_name in glob.glob("*.py"):
+        for file_name in glob.glob("v*"):
             if file_name != '__init__.py':
-                #self.solvers.append( __import__("to_evaluate.{}".format(file_name[:-3])) ) #cut away .py
-                solver = getattr(import_module("to_evaluate.{}".format(file_name[:-3])), 'DQNSolver') 
+                self.dqn_name.append(file_name)
+                solver = getattr(import_module("{}.dqn".format(file_name)), 'DQNSolver') 
                 self.dqn.append(solver(self.observation_space, self.action_space))
                 self.dqn[-1].exploration_rate = 0
-                print('Loading weights {}.h5 ...'.format(file_name[:-3]))
-                self.dqn[-1].load('{}.h5'.format(file_name[:-3]) )
-                print("Added Network {}".format(file_name[:-3]))
+                print('Loading weights {}/weights.h5 ...'.format(file_name))
+                self.dqn[-1].load('{}/weights.h5'.format(file_name) )
+                print("Added Network {}".format(file_name))
                 
+        os.chdir('all_ais_evaluated') # has no effect on search path, but needed to save evaluations in the right place
         self.scores = np.zeros(len(self.dqn), dtype =int)
                     
     def get_dqn_name(self, ai):
-        return self.dqn[ai].__module__.split('.')[-1] #extract moudle name
+#        return self.dqn[ai].__module__.split('.')[-1] #extract moudle name
+        return self.dqn_name[ai]
     
-    def evaluate_all_dqn(self, numberOfGames = 1000, games_recorded_per_eval = 10):
+    def evaluate_all_dqn(self, numberOfGames = 10, games_recorded_per_eval = 5):
         number_of_ais = len(self.dqn)
         for i in range(number_of_ais):
             for j in range(i+1, number_of_ais):
@@ -53,8 +54,11 @@ class TestSetup():
             print ('{}: {}'.format(self.get_dqn_name(idx), x) )
                 
 if __name__ == "__main__":
+    print('''Every folder beginning with version* is considered as network to evaluate. 
+Each network needs a dqn.py file and a weights.h5 file. Consider renaming untrained networks''')
+    input("Press Enter when ready...")
     evaluator = TestSetup()
-    evaluator.evaluate_all_dqn(numberOfGames= 50, games_recorded_per_eval = 5)
+    evaluator.evaluate_all_dqn(numberOfGames= 1, games_recorded_per_eval = 1)
     
         
         
