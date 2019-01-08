@@ -1,0 +1,102 @@
+Testing AI v61 vs. AI v41. AI v61 is yellow
+AI v61 scored against AI v41 0:50. 0 ties
+Testing AI v61 vs. AI v51. AI v61 is yellow
+AI v61 scored against AI v51 0:50. 0 ties
+Testing AI v61 vs. AI v64. AI v61 is yellow
+AI v61 scored against AI v64 0:50. 0 ties
+Testing AI v61 vs. AI v53. AI v61 is yellow
+AI v61 scored against AI v53 25:25. 0 ties
+Testing AI v61 vs. AI v63. AI v61 is yellow
+AI v61 scored against AI v63 25:25. 0 ties
+Testing AI v61 vs. AI v32. AI v61 is yellow
+AI v61 scored against AI v32 0:50. 0 ties
+Testing AI v61 vs. AI v62. AI v61 is yellow
+AI v61 scored against AI v62 0:50. 0 ties
+Testing AI v61 vs. AI v33. AI v61 is yellow
+AI v61 scored against AI v33 0:50. 0 ties
+Testing AI v61 vs. AI v52. AI v61 is yellow
+AI v61 scored against AI v52 0:50. 0 ties
+Testing AI v41 vs. AI v51. AI v41 is yellow
+AI v41 scored against AI v51 1:49. 0 ties
+Testing AI v41 vs. AI v64. AI v41 is yellow
+AI v41 scored against AI v64 13:37. 0 ties
+Testing AI v41 vs. AI v53. AI v41 is yellow
+AI v41 scored against AI v53 10:40. 0 ties
+Testing AI v41 vs. AI v63. AI v41 is yellow
+AI v41 scored against AI v63 25:25. 0 ties
+Testing AI v41 vs. AI v32. AI v41 is yellow
+AI v41 scored against AI v32 33:17. 0 ties
+Testing AI v41 vs. AI v62. AI v41 is yellow
+AI v41 scored against AI v62 25:25. 0 ties
+Testing AI v41 vs. AI v33. AI v41 is yellow
+AI v41 scored against AI v33 0:50. 0 ties
+Testing AI v41 vs. AI v52. AI v41 is yellow
+AI v41 scored against AI v52 24:26. 0 ties
+Testing AI v51 vs. AI v64. AI v51 is yellow
+AI v51 scored against AI v64 25:25. 0 ties
+Testing AI v51 vs. AI v53. AI v51 is yellow
+AI v51 scored against AI v53 40:10. 0 ties
+Testing AI v51 vs. AI v63. AI v51 is yellow
+AI v51 scored against AI v63 50:0. 0 ties
+Testing AI v51 vs. AI v32. AI v51 is yellow
+AI v51 scored against AI v32 17:33. 0 ties
+Testing AI v51 vs. AI v62. AI v51 is yellow
+AI v51 scored against AI v62 25:25. 0 ties
+Testing AI v51 vs. AI v33. AI v51 is yellow
+AI v51 scored against AI v33 25:25. 0 ties
+Testing AI v51 vs. AI v52. AI v51 is yellow
+AI v51 scored against AI v52 25:25. 0 ties
+Testing AI v64 vs. AI v53. AI v64 is yellow
+AI v64 scored against AI v53 1:48. 1 ties
+Testing AI v64 vs. AI v63. AI v64 is yellow
+AI v64 scored against AI v63 50:0. 0 ties
+Testing AI v64 vs. AI v32. AI v64 is yellow
+AI v64 scored against AI v32 25:25. 0 ties
+Testing AI v64 vs. AI v62. AI v64 is yellow
+AI v64 scored against AI v62 40:10. 0 ties
+Testing AI v64 vs. AI v33. AI v64 is yellow
+AI v64 scored against AI v33 0:50. 0 ties
+Testing AI v64 vs. AI v52. AI v64 is yellow
+AI v64 scored against AI v52 34:16. 0 ties
+Testing AI v53 vs. AI v63. AI v53 is yellow
+AI v53 scored against AI v63 50:0. 0 ties
+Testing AI v53 vs. AI v32. AI v53 is yellow
+AI v53 scored against AI v32 49:1. 0 ties
+Testing AI v53 vs. AI v62. AI v53 is yellow
+AI v53 scored against AI v62 38:12. 0 ties
+Testing AI v53 vs. AI v33. AI v53 is yellow
+AI v53 scored against AI v33 26:24. 0 ties
+Testing AI v53 vs. AI v52. AI v53 is yellow
+AI v53 scored against AI v52 25:25. 0 ties
+Testing AI v63 vs. AI v32. AI v63 is yellow
+AI v63 scored against AI v32 0:50. 0 ties
+Testing AI v63 vs. AI v62. AI v63 is yellow
+AI v63 scored against AI v62 0:50. 0 ties
+Testing AI v63 vs. AI v33. AI v63 is yellow
+AI v63 scored against AI v33 0:50. 0 ties
+Testing AI v63 vs. AI v52. AI v63 is yellow
+AI v63 scored against AI v52 0:50. 0 ties
+Testing AI v32 vs. AI v62. AI v32 is yellow
+AI v32 scored against AI v62 50:0. 0 ties
+Testing AI v32 vs. AI v33. AI v32 is yellow
+AI v32 scored against AI v33 34:16. 0 ties
+Testing AI v32 vs. AI v52. AI v32 is yellow
+AI v32 scored against AI v52 17:33. 0 ties
+Testing AI v62 vs. AI v33. AI v62 is yellow
+AI v62 scored against AI v33 0:0. 50 ties
+Testing AI v62 vs. AI v52. AI v62 is yellow
+AI v62 scored against AI v52 0:50. 0 ties
+Testing AI v33 vs. AI v52. AI v33 is yellow
+AI v33 scored against AI v52 1:49. 0 ties
+
+Total score:
+v61: 50
+v41: 181
+v51: 306
+v64: 262
+v53: 311
+v63: 50
+v32: 277
+v62: 172
+v33: 266
+v52: 324
