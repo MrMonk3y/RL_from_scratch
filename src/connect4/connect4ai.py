@@ -15,16 +15,15 @@ from connect4game import Connect4
 from keras.backend.tensorflow_backend import set_session
 from importlib import import_module
 
-NUMBER_OF_EVAL_GAMES = 1
-SAVE_EVERY_K_GAMES = 2
-GAMES_RECORDED_PER_EVAL = 1
+NUMBER_OF_EVAL_GAMES = 1000
+SAVE_EVERY_K_GAMES = 50
+GAMES_RECORDED_PER_EVAL = 10
 DEMO_MODE = 0
 EVAL_AI= 'version51'
 
 def connect4dqn(folder):
     env = Connect4()
     os.chdir(folder)
-    print(os.getcwd())
     score_logger_random = ScoreLogger('AI_vs_random', average_score_to_solve=1000)
     score_logger_ai = ScoreLogger('AI_vs_{}'.format(EVAL_AI), average_score_to_solve = 11) 
     #only 10 games played but scorelogger would (early)stop(ing) when reaching 10 games 10 times in a row --> 11
