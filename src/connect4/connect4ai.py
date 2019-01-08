@@ -15,11 +15,11 @@ from connect4game import Connect4
 from keras.backend.tensorflow_backend import set_session
 from importlib import import_module
 
-NUMBER_OF_EVAL_GAMES = 1000
-SAVE_EVERY_K_GAMES = 50
-GAMES_RECORDED_PER_EVAL = 10
+NUMBER_OF_EVAL_GAMES = 1
+SAVE_EVERY_K_GAMES = 2
+GAMES_RECORDED_PER_EVAL = 1
 DEMO_MODE = 0
-EVAL_AI= 'v53'
+EVAL_AI= 'version51'
 
 def connect4dqn(folder):
     env = Connect4()
