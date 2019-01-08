@@ -9,13 +9,13 @@ import numpy as np
 
 class ScoreLogger:
 
-    def __init__(self, env_name, version_name='.', average_score_to_solve=1000,
+    def __init__(self, title, version_name='.', average_score_to_solve=1000,
                  consecutive_runs_to_solve=10):
-        self.env_name = env_name
-        self.scores_csv_path = "{}/scores/scores.csv".format(version_name)
-        self.scores_png_path = "{}/scores/scores.png".format(version_name)
-        self.solved_csv_path = "{}/scores/solved.csv".format(version_name)
-        self.solved_png_path = "{}/scores/solved.png".format(version_name)
+        self.title = title
+        self.scores_csv_path = "{}/scores/{}_scores.csv".format(version_name, self.title)
+        self.scores_png_path = "{}/scores/{}_scores.png".format(version_name, self.title)
+        self.solved_csv_path = "{}/scores/{}_solved.csv".format(version_name, self.title)
+        self.solved_png_path = "{}/scores/{}_solved.png".format(version_name, self.title)
         self.average_score_to_solve = average_score_to_solve
         self.consecutive_runs_to_solve = consecutive_runs_to_solve
         self.scores = deque(maxlen=self.consecutive_runs_to_solve)
@@ -77,7 +77,7 @@ class ScoreLogger:
             p = np.poly1d(z)
             plt.plot(trend_x, p(trend_x), linestyle="-.",  label="trend")
 
-        plt.title(self.env_name)
+        plt.title(self.title)
         plt.xlabel(x_label)
         plt.ylabel(y_label)
 
