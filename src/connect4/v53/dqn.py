@@ -7,7 +7,6 @@ Created on Sun Dec  2 19:55:38 2018
 """
 
 import sys
-import os
 sys.path.append("..")
 import random
 import numpy as np
@@ -19,7 +18,6 @@ from keras.regularizers import l2
 from keras.layers.merge import Add
 from keras.layers.normalization import BatchNormalization
 from keras.layers.core import Activation
-import shutil
 
 GAMMA = 0.95
 
@@ -37,11 +35,6 @@ class DQNSolver:
         self.observation_space =  observation_space
         self.action_space = action_space
         self.memory = deque(maxlen=MEMORY_SIZE)
-
-        i = 0 #remove old Evaluations
-        while os.path.exists("Evaluation%s" % i):
-            shutil.rmtree("Evaluation%s" % i)
-            i += 1
 
         in_x = x = Input((self.observation_space[0], self.observation_space[1], 2))  # stack of own(6x7) and enemy(6x7) field
 

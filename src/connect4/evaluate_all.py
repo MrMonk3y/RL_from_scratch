@@ -43,6 +43,7 @@ class TestSetup():
                 i_win, j_win, _ = evaluate.ai_vs_ai(self.env, 
                                                  self.dqn[i], self.get_dqn_name(i), 
                                                  self.dqn[j], self.get_dqn_name(j),
+                                                 '', #needed to prevent adding a zero to the filename
                                                  numberOfGames, games_recorded_per_eval)
                 self.scores[i] += i_win
                 self.scores[j] += j_win

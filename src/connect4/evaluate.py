@@ -11,7 +11,7 @@ import argparse
 from connect4game import Connect4
 from importlib import import_module
 
-def ai_vs_random(env, dqn, numberOfGames = 1000, games_recorded_per_eval = 10):
+def ai_vs_random(env, dqn, eval_ctr=0, numberOfGames = 1000, games_recorded_per_eval = 10):
     print('Testing AI vs. random move. AI is yellow (Player 1)')
     tmp_exploration_rate = dqn.exploration_rate # saving exploration rate 
     dqn.exploration_rate = 0 # setting exploration to zero while evaluating
@@ -21,11 +21,11 @@ def ai_vs_random(env, dqn, numberOfGames = 1000, games_recorded_per_eval = 10):
     tieCOunter = 0
     state = env.reset()
     
-    i = 0
-    while os.path.exists("Evaluation%s" % i):
-        i += 1
-    os.makedirs("Evaluation%s" % i)
-    os.chdir("Evaluation%s" % i)
+    while os.path.exists("Evaluation{}".format(eval_ctr)):
+        print("Old evaluations exits. Move them first!")
+        input("Press Enter to continue...")
+    os.makedirs("Evaluation{}".format(eval_ctr))
+    os.chdir("Evaluation{}".format(eval_ctr))
         
     while run < numberOfGames:
         terminal = 0
@@ -56,7 +56,7 @@ def ai_vs_random(env, dqn, numberOfGames = 1000, games_recorded_per_eval = 10):
     dqn.exploration_rate = tmp_exploration_rate
     return aiWin, tieCOunter
 
-def ai_vs_ai(env, ai1, ai1_name, ai2, ai2_name, numberOfGames = 1000, games_recorded_per_eval = 10):
+def ai_vs_ai(env, ai1, ai1_name, ai2, ai2_name, eval_ctr=0, numberOfGames = 1000, games_recorded_per_eval = 10):
         
     print('Testing AI {} vs. AI {}. AI {} is yellow'.format(ai1_name, ai2_name, ai1_name))
     run = 0
@@ -65,12 +65,12 @@ def ai_vs_ai(env, ai1, ai1_name, ai2, ai2_name, numberOfGames = 1000, games_reco
     tieCOunter = 0
     state = env.reset()
     
-    while os.path.exists("Evaluation_{}_vs_{}".format(ai1_name, ai2_name)):
+    while os.path.exists("Evaluation{}_{}_vs_{}".format(eval_ctr, ai1_name, ai2_name)):
         print("Old evaluations exits. Move them first!")
         input("Press Enter to continue...")
         
-    os.makedirs("Evaluation_{}_vs_{}".format(ai1_name, ai2_name))
-    os.chdir("Evaluation_{}_vs_{}".format(ai1_name, ai2_name))
+    os.makedirs("Evaluation{}_{}_vs_{}".format(eval_ctr, ai1_name, ai2_name))
+    os.chdir("Evaluation{}_{}_vs_{}".format(eval_ctr, ai1_name, ai2_name))
                                        
     while run < numberOfGames:
         terminal = 0
