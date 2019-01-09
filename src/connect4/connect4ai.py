@@ -58,6 +58,7 @@ def connect4dqn(folder):
 
             eval_solver = getattr(import_module('{}.dqn'.format(EVAL_AI)), 'DQNSolver')
             eval_dqn_solver = eval_solver(observation_space, action_space)
+            eval_dqn_solver.exploration_rate = 0
 
             ai1_win, ai2_win, tieCOunter = evaluate.ai_vs_ai(env, ai1=dqn_solver, ai1_name=folder,
                                                              ai2=eval_dqn_solver, ai2_name=EVAL_AI,
