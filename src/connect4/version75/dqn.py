@@ -21,12 +21,12 @@ from keras.layers.core import Activation
 
 GAMMA = 0.95
 
-MEMORY_SIZE = 1000000
-BATCH_SIZE = 64
+MEMORY_SIZE = 1000
+BATCH_SIZE = 32
 
 EXPLORATION_MAX = 1.0
 EXPLORATION_MIN = 0.01
-EXPLORATION_DECAY = 0.99998
+EXPLORATION_DECAY = 0.99995
 
 class DQNSolver:
 
@@ -51,15 +51,12 @@ class DQNSolver:
         x = BatchNormalization(axis=-1)(x)
         x = Activation("relu")(x)
         x = Flatten()(x)
+        x = Dense(256, kernel_regularizer=l2(1e-4), activation="relu")(x)
         policy_out = Dense(action_space, kernel_regularizer=l2(1e-4), activation="softmax", name="policy_out")(x)
 
         self.model = Model(in_x, policy_out, name="connect4_model")
 
-        self.optimizer = RMSprop(lr=0.000025, rho=0.9, epsilon=1e-6, decay=0.0) #SGD(lr=1e-2, momentum=0.9
-#       'deepmind_rmsprop_learning_rate': 0.00025,
-#       'deepmind_rmsprop_rho': .95,
-#       'deepmind_rmsprop_epsilon': 0.01,)
-#        self.optimizer = SGD(lr=1e-2, momentum=0.9)
+        self.optimizer = RMSprop(lr=0.000025, rho=0.90, epsilon=1e-6, decay=0.0)
         self.model.compile(optimizer=self.optimizer, loss='categorical_crossentropy')
 
     def _build_residual_block(self, x):
