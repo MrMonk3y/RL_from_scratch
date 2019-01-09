@@ -37,6 +37,7 @@ def connect4dqn(folder):
     config = tf.ConfigProto(
         device_count = {'GPU': 1}
     )
+    config.gpu_options.allow_growth = True
     sess = tf.Session(config=config)
     set_session(sess)
 
