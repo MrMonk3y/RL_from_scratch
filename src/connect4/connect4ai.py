@@ -16,7 +16,8 @@ from keras.backend.tensorflow_backend import set_session
 from importlib import import_module
 
 NUMBER_OF_EVAL_GAMES = 1000
-SAVE_EVERY_K_GAMES = 50
+NUMBER_OF_AI_EVAL_GAMES = 10
+SAVE_EVERY_K_GAMES = 200
 GAMES_RECORDED_PER_EVAL = 10
 DEMO_MODE = 0
 EVAL_AI= 'version51'
@@ -25,9 +26,9 @@ def connect4dqn(folder):
     env = Connect4()
     os.chdir(folder)
     score_logger_random = ScoreLogger('AI_vs_random', average_score_to_solve=1000)
-    score_logger_ai = ScoreLogger('AI_vs_{}'.format(EVAL_AI), average_score_to_solve = 11) 
+    score_logger_ai = ScoreLogger('AI_vs_{}'.format(EVAL_AI), average_score_to_solve = 11)
     #only 10 games played but scorelogger would (early)stop(ing) when reaching 10 games 10 times in a row --> 11
-    
+
 #    player1won = 0
 #    player2won = 0
     observation_space = env.reset().shape
@@ -53,14 +54,14 @@ def connect4dqn(folder):
                                                 numberOfGames = NUMBER_OF_EVAL_GAMES,
                                                 games_recorded_per_eval = GAMES_RECORDED_PER_EVAL)
             score_logger_random.add_score(score + ties, run) #logging ties as success
-            
+
             eval_solver = getattr(import_module('{}.dqn'.format(EVAL_AI)), 'DQNSolver')
             eval_dqn_solver = eval_solver(observation_space, action_space)
-            
+
             ai1_win, ai2_win, tieCOunter = evaluate.ai_vs_ai(env, ai1=dqn_solver, ai1_name=folder,
                                                              ai2=eval_dqn_solver, ai2_name=EVAL_AI,
                                                              eval_ctr=run,
-                                                             numberOfGames = 10,
+                                                             numberOfGames = NUMBER_OF_AI_EVAL_GAMES,
                                                              games_recorded_per_eval = GAMES_RECORDED_PER_EVAL)
             del eval_dqn_solver
             score_logger_ai.add_score(ai1_win + tieCOunter, run) #logging ties as success
