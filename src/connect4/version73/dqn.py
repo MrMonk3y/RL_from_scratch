@@ -13,7 +13,7 @@ import numpy as np
 from collections import deque
 from keras.models import Model
 from keras.layers import Dense, Flatten, Input, Conv2D
-from keras.optimizers import Adam
+from keras.optimizers import RMSprop
 from keras.regularizers import l2
 from keras.layers.merge import Add
 from keras.layers.normalization import BatchNormalization
