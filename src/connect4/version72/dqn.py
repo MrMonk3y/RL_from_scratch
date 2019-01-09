@@ -26,7 +26,7 @@ BATCH_SIZE = 512
 
 EXPLORATION_MAX = 1.0
 EXPLORATION_MIN = 0.01
-EXPLORATION_DECAY = 0.998
+EXPLORATION_DECAY = 0.9998
 
 class DQNSolver:
 
@@ -55,7 +55,7 @@ class DQNSolver:
 
         self.model = Model(in_x, policy_out, name="connect4_model")
 
-        self.optimizer = Adam(lr=0.00025) 
+        self.optimizer = Adam(lr=0.00025)
         self.model.compile(optimizer=self.optimizer, loss='categorical_crossentropy')
 
     def _build_residual_block(self, x):
