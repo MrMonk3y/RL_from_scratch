@@ -31,7 +31,7 @@ class TestSetup():
                 print("Added Network {}".format(file_name))
 
         os.chdir('all_ais_evaluated') # has no effect on search path, but needed to save evaluations in the right place
-        self.scores = np.zeros(len(self.dqn), dtype =int)
+        self.scores = np.zeros(len(self.dqn), dtype=int)
 
     def get_dqn_name(self, ai):
 #        return self.dqn[ai].__module__.split('.')[-1] #extract moudle name
