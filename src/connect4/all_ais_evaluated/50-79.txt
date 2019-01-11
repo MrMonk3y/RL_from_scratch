@@ -1,0 +1,493 @@
+Testing AI version64 vs. AI version77. AI version64 is yellow
+AI version64 scored against AI version77 10:0. 0 ties
+Testing AI version64 vs. AI version71. AI version64 is yellow
+AI version64 scored against AI version71 10:0. 0 ties
+Testing AI version64 vs. AI version75. AI version64 is yellow
+AI version64 scored against AI version75 6:4. 0 ties
+Testing AI version64 vs. AI version63. AI version64 is yellow
+AI version64 scored against AI version63 10:0. 0 ties
+Testing AI version64 vs. AI version33. AI version64 is yellow
+AI version64 scored against AI version33 0:10. 0 ties
+Testing AI version64 vs. AI version53. AI version64 is yellow
+AI version64 scored against AI version53 1:8. 1 ties
+Testing AI version64 vs. AI version52. AI version64 is yellow
+AI version64 scored against AI version52 7:3. 0 ties
+Testing AI version64 vs. AI version51. AI version64 is yellow
+AI version64 scored against AI version51 8:2. 0 ties
+Testing AI version64 vs. AI version72. AI version64 is yellow
+AI version64 scored against AI version72 5:5. 0 ties
+Testing AI version64 vs. AI version78. AI version64 is yellow
+AI version64 scored against AI version78 10:0. 0 ties
+Testing AI version64 vs. AI version79. AI version64 is yellow
+AI version64 scored against AI version79 9:1. 0 ties
+Testing AI version64 vs. AI version61. AI version64 is yellow
+AI version64 scored against AI version61 10:0. 0 ties
+Testing AI version64 vs. AI version50. AI version64 is yellow
+AI version64 scored against AI version50 5:5. 0 ties
+Testing AI version64 vs. AI version41. AI version64 is yellow
+AI version64 scored against AI version41 10:0. 0 ties
+Testing AI version64 vs. AI version73. AI version64 is yellow
+AI version64 scored against AI version73 10:0. 0 ties
+Testing AI version64 vs. AI version32. AI version64 is yellow
+AI version64 scored against AI version32 5:5. 0 ties
+Testing AI version64 vs. AI version76. AI version64 is yellow
+AI version64 scored against AI version76 8:0. 2 ties
+Testing AI version64 vs. AI version30. AI version64 is yellow
+AI version64 scored against AI version30 3:4. 3 ties
+Testing AI version64 vs. AI version70. AI version64 is yellow
+AI version64 scored against AI version70 9:1. 0 ties
+Testing AI version64 vs. AI version74. AI version64 is yellow
+AI version64 scored against AI version74 10:0. 0 ties
+Testing AI version64 vs. AI version62. AI version64 is yellow
+AI version64 scored against AI version62 8:2. 0 ties
+Testing AI version77 vs. AI version71. AI version77 is yellow
+AI version77 scored against AI version71 4:4. 2 ties
+Testing AI version77 vs. AI version75. AI version77 is yellow
+AI version77 scored against AI version75 0:10. 0 ties
+Testing AI version77 vs. AI version63. AI version77 is yellow
+AI version77 scored against AI version63 10:0. 0 ties
+Testing AI version77 vs. AI version33. AI version77 is yellow
+AI version77 scored against AI version33 8:2. 0 ties
+Testing AI version77 vs. AI version53. AI version77 is yellow
+AI version77 scored against AI version53 1:9. 0 ties
+Testing AI version77 vs. AI version52. AI version77 is yellow
+AI version77 scored against AI version52 4:6. 0 ties
+Testing AI version77 vs. AI version51. AI version77 is yellow
+AI version77 scored against AI version51 4:6. 0 ties
+Testing AI version77 vs. AI version72. AI version77 is yellow
+AI version77 scored against AI version72 6:4. 0 ties
+Testing AI version77 vs. AI version78. AI version77 is yellow
+AI version77 scored against AI version78 7:3. 0 ties
+Testing AI version77 vs. AI version79. AI version77 is yellow
+AI version77 scored against AI version79 5:5. 0 ties
+Testing AI version77 vs. AI version61. AI version77 is yellow
+AI version77 scored against AI version61 10:0. 0 ties
+Testing AI version77 vs. AI version50. AI version77 is yellow
+AI version77 scored against AI version50 4:6. 0 ties
+Testing AI version77 vs. AI version41. AI version77 is yellow
+AI version77 scored against AI version41 5:5. 0 ties
+Testing AI version77 vs. AI version73. AI version77 is yellow
+AI version77 scored against AI version73 4:6. 0 ties
+Testing AI version77 vs. AI version32. AI version77 is yellow
+AI version77 scored against AI version32 8:2. 0 ties
+Testing AI version77 vs. AI version76. AI version77 is yellow
+AI version77 scored against AI version76 0:10. 0 ties
+Testing AI version77 vs. AI version30. AI version77 is yellow
+AI version77 scored against AI version30 9:1. 0 ties
+Testing AI version77 vs. AI version70. AI version77 is yellow
+AI version77 scored against AI version70 2:8. 0 ties
+Testing AI version77 vs. AI version74. AI version77 is yellow
+AI version77 scored against AI version74 10:0. 0 ties
+Testing AI version77 vs. AI version62. AI version77 is yellow
+AI version77 scored against AI version62 9:1. 0 ties
+Testing AI version71 vs. AI version75. AI version71 is yellow
+AI version71 scored against AI version75 5:5. 0 ties
+Testing AI version71 vs. AI version63. AI version71 is yellow
+AI version71 scored against AI version63 10:0. 0 ties
+Testing AI version71 vs. AI version33. AI version71 is yellow
+AI version71 scored against AI version33 1:9. 0 ties
+Testing AI version71 vs. AI version53. AI version71 is yellow
+AI version71 scored against AI version53 5:5. 0 ties
+Testing AI version71 vs. AI version52. AI version71 is yellow
+AI version71 scored against AI version52 5:5. 0 ties
+Testing AI version71 vs. AI version51. AI version71 is yellow
+AI version71 scored against AI version51 6:4. 0 ties
+Testing AI version71 vs. AI version72. AI version71 is yellow
+AI version71 scored against AI version72 5:5. 0 ties
+Testing AI version71 vs. AI version78. AI version71 is yellow
+AI version71 scored against AI version78 10:0. 0 ties
+Testing AI version71 vs. AI version79. AI version71 is yellow
+AI version71 scored against AI version79 6:4. 0 ties
+Testing AI version71 vs. AI version61. AI version71 is yellow
+AI version71 scored against AI version61 10:0. 0 ties
+Testing AI version71 vs. AI version50. AI version71 is yellow
+AI version71 scored against AI version50 5:5. 0 ties
+Testing AI version71 vs. AI version41. AI version71 is yellow
+AI version71 scored against AI version41 5:5. 0 ties
+Testing AI version71 vs. AI version73. AI version71 is yellow
+AI version71 scored against AI version73 5:5. 0 ties
+Testing AI version71 vs. AI version32. AI version71 is yellow
+AI version71 scored against AI version32 6:4. 0 ties
+Testing AI version71 vs. AI version76. AI version71 is yellow
+AI version71 scored against AI version76 0:10. 0 ties
+Testing AI version71 vs. AI version30. AI version71 is yellow
+AI version71 scored against AI version30 7:3. 0 ties
+Testing AI version71 vs. AI version70. AI version71 is yellow
+AI version71 scored against AI version70 2:8. 0 ties
+Testing AI version71 vs. AI version74. AI version71 is yellow
+AI version71 scored against AI version74 10:0. 0 ties
+Testing AI version71 vs. AI version62. AI version71 is yellow
+AI version71 scored against AI version62 5:5. 0 ties
+Testing AI version75 vs. AI version63. AI version75 is yellow
+AI version75 scored against AI version63 10:0. 0 ties
+Testing AI version75 vs. AI version33. AI version75 is yellow
+AI version75 scored against AI version33 1:9. 0 ties
+Testing AI version75 vs. AI version53. AI version75 is yellow
+AI version75 scored against AI version53 0:10. 0 ties
+Testing AI version75 vs. AI version52. AI version75 is yellow
+AI version75 scored against AI version52 7:3. 0 ties
+Testing AI version75 vs. AI version51. AI version75 is yellow
+AI version75 scored against AI version51 0:10. 0 ties
+Testing AI version75 vs. AI version72. AI version75 is yellow
+AI version75 scored against AI version72 5:5. 0 ties
+Testing AI version75 vs. AI version78. AI version75 is yellow
+AI version75 scored against AI version78 4:6. 0 ties
+Testing AI version75 vs. AI version79. AI version75 is yellow
+AI version75 scored against AI version79 10:0. 0 ties
+Testing AI version75 vs. AI version61. AI version75 is yellow
+AI version75 scored against AI version61 10:0. 0 ties
+Testing AI version75 vs. AI version50. AI version75 is yellow
+AI version75 scored against AI version50 5:0. 5 ties
+Testing AI version75 vs. AI version41. AI version75 is yellow
+AI version75 scored against AI version41 8:2. 0 ties
+Testing AI version75 vs. AI version73. AI version75 is yellow
+AI version75 scored against AI version73 0:10. 0 ties
+Testing AI version75 vs. AI version32. AI version75 is yellow
+AI version75 scored against AI version32 3:7. 0 ties
+Testing AI version75 vs. AI version76. AI version75 is yellow
+AI version75 scored against AI version76 10:0. 0 ties
+Testing AI version75 vs. AI version30. AI version75 is yellow
+AI version75 scored against AI version30 7:3. 0 ties
+Testing AI version75 vs. AI version70. AI version75 is yellow
+AI version75 scored against AI version70 0:10. 0 ties
+Testing AI version75 vs. AI version74. AI version75 is yellow
+AI version75 scored against AI version74 10:0. 0 ties
+Testing AI version75 vs. AI version62. AI version75 is yellow
+AI version75 scored against AI version62 10:0. 0 ties
+Testing AI version63 vs. AI version33. AI version63 is yellow
+AI version63 scored against AI version33 0:10. 0 ties
+Testing AI version63 vs. AI version53. AI version63 is yellow
+AI version63 scored against AI version53 0:10. 0 ties
+Testing AI version63 vs. AI version52. AI version63 is yellow
+AI version63 scored against AI version52 0:10. 0 ties
+Testing AI version63 vs. AI version51. AI version63 is yellow
+AI version63 scored against AI version51 0:10. 0 ties
+Testing AI version63 vs. AI version72. AI version63 is yellow
+AI version63 scored against AI version72 0:10. 0 ties
+Testing AI version63 vs. AI version78. AI version63 is yellow
+AI version63 scored against AI version78 5:5. 0 ties
+Testing AI version63 vs. AI version79. AI version63 is yellow
+AI version63 scored against AI version79 0:10. 0 ties
+Testing AI version63 vs. AI version61. AI version63 is yellow
+AI version63 scored against AI version61 5:5. 0 ties
+Testing AI version63 vs. AI version50. AI version63 is yellow
+AI version63 scored against AI version50 0:10. 0 ties
+Testing AI version63 vs. AI version41. AI version63 is yellow
+AI version63 scored against AI version41 0:10. 0 ties
+Testing AI version63 vs. AI version73. AI version63 is yellow
+AI version63 scored against AI version73 0:10. 0 ties
+Testing AI version63 vs. AI version32. AI version63 is yellow
+AI version63 scored against AI version32 0:10. 0 ties
+Testing AI version63 vs. AI version76. AI version63 is yellow
+AI version63 scored against AI version76 0:10. 0 ties
+Testing AI version63 vs. AI version30. AI version63 is yellow
+AI version63 scored against AI version30 0:10. 0 ties
+Testing AI version63 vs. AI version70. AI version63 is yellow
+AI version63 scored against AI version70 0:10. 0 ties
+Testing AI version63 vs. AI version74. AI version63 is yellow
+AI version63 scored against AI version74 5:5. 0 ties
+Testing AI version63 vs. AI version62. AI version63 is yellow
+AI version63 scored against AI version62 0:10. 0 ties
+Testing AI version33 vs. AI version53. AI version33 is yellow
+AI version33 scored against AI version53 6:4. 0 ties
+Testing AI version33 vs. AI version52. AI version33 is yellow
+AI version33 scored against AI version52 1:9. 0 ties
+Testing AI version33 vs. AI version51. AI version33 is yellow
+AI version33 scored against AI version51 5:5. 0 ties
+Testing AI version33 vs. AI version72. AI version33 is yellow
+AI version33 scored against AI version72 0:10. 0 ties
+Testing AI version33 vs. AI version78. AI version33 is yellow
+AI version33 scored against AI version78 10:0. 0 ties
+Testing AI version33 vs. AI version79. AI version33 is yellow
+AI version33 scored against AI version79 5:5. 0 ties
+Testing AI version33 vs. AI version61. AI version33 is yellow
+AI version33 scored against AI version61 10:0. 0 ties
+Testing AI version33 vs. AI version50. AI version33 is yellow
+AI version33 scored against AI version50 5:5. 0 ties
+Testing AI version33 vs. AI version41. AI version33 is yellow
+AI version33 scored against AI version41 10:0. 0 ties
+Testing AI version33 vs. AI version73. AI version33 is yellow
+AI version33 scored against AI version73 8:2. 0 ties
+Testing AI version33 vs. AI version32. AI version33 is yellow
+AI version33 scored against AI version32 0:10. 0 ties
+Testing AI version33 vs. AI version76. AI version33 is yellow
+AI version33 scored against AI version76 1:8. 1 ties
+Testing AI version33 vs. AI version30. AI version33 is yellow
+AI version33 scored against AI version30 0:10. 0 ties
+Testing AI version33 vs. AI version70. AI version33 is yellow
+AI version33 scored against AI version70 3:7. 0 ties
+Testing AI version33 vs. AI version74. AI version33 is yellow
+AI version33 scored against AI version74 10:0. 0 ties
+Testing AI version33 vs. AI version62. AI version33 is yellow
+AI version33 scored against AI version62 6:4. 0 ties
+Testing AI version53 vs. AI version52. AI version53 is yellow
+AI version53 scored against AI version52 5:5. 0 ties
+Testing AI version53 vs. AI version51. AI version53 is yellow
+AI version53 scored against AI version51 10:0. 0 ties
+Testing AI version53 vs. AI version72. AI version53 is yellow
+AI version53 scored against AI version72 5:5. 0 ties
+Testing AI version53 vs. AI version78. AI version53 is yellow
+AI version53 scored against AI version78 8:2. 0 ties
+Testing AI version53 vs. AI version79. AI version53 is yellow
+AI version53 scored against AI version79 10:0. 0 ties
+Testing AI version53 vs. AI version61. AI version53 is yellow
+AI version53 scored against AI version61 10:0. 0 ties
+Testing AI version53 vs. AI version50. AI version53 is yellow
+AI version53 scored against AI version50 5:5. 0 ties
+Testing AI version53 vs. AI version41. AI version53 is yellow
+AI version53 scored against AI version41 7:3. 0 ties
+Testing AI version53 vs. AI version73. AI version53 is yellow
+AI version53 scored against AI version73 8:2. 0 ties
+Testing AI version53 vs. AI version32. AI version53 is yellow
+AI version53 scored against AI version32 9:1. 0 ties
+Testing AI version53 vs. AI version76. AI version53 is yellow
+AI version53 scored against AI version76 1:9. 0 ties
+Testing AI version53 vs. AI version30. AI version53 is yellow
+AI version53 scored against AI version30 6:4. 0 ties
+Testing AI version53 vs. AI version70. AI version53 is yellow
+AI version53 scored against AI version70 0:10. 0 ties
+Testing AI version53 vs. AI version74. AI version53 is yellow
+AI version53 scored against AI version74 10:0. 0 ties
+Testing AI version53 vs. AI version62. AI version53 is yellow
+AI version53 scored against AI version62 8:2. 0 ties
+Testing AI version52 vs. AI version51. AI version52 is yellow
+AI version52 scored against AI version51 1:9. 0 ties
+Testing AI version52 vs. AI version72. AI version52 is yellow
+AI version52 scored against AI version72 0:0. 10 ties
+Testing AI version52 vs. AI version78. AI version52 is yellow
+AI version52 scored against AI version78 10:0. 0 ties
+Testing AI version52 vs. AI version79. AI version52 is yellow
+AI version52 scored against AI version79 3:7. 0 ties
+Testing AI version52 vs. AI version61. AI version52 is yellow
+AI version52 scored against AI version61 10:0. 0 ties
+Testing AI version52 vs. AI version50. AI version52 is yellow
+AI version52 scored against AI version50 10:0. 0 ties
+Testing AI version52 vs. AI version41. AI version52 is yellow
+AI version52 scored against AI version41 10:0. 0 ties
+Testing AI version52 vs. AI version73. AI version52 is yellow
+AI version52 scored against AI version73 8:2. 0 ties
+Testing AI version52 vs. AI version32. AI version52 is yellow
+AI version52 scored against AI version32 0:0. 10 ties
+Testing AI version52 vs. AI version76. AI version52 is yellow
+AI version52 scored against AI version76 5:5. 0 ties
+Testing AI version52 vs. AI version30. AI version52 is yellow
+AI version52 scored against AI version30 5:5. 0 ties
+Testing AI version52 vs. AI version70. AI version52 is yellow
+AI version52 scored against AI version70 3:5. 2 ties
+Testing AI version52 vs. AI version74. AI version52 is yellow
+AI version52 scored against AI version74 10:0. 0 ties
+Testing AI version52 vs. AI version62. AI version52 is yellow
+AI version52 scored against AI version62 5:5. 0 ties
+Testing AI version51 vs. AI version72. AI version51 is yellow
+AI version51 scored against AI version72 2:7. 1 ties
+Testing AI version51 vs. AI version78. AI version51 is yellow
+AI version51 scored against AI version78 9:1. 0 ties
+Testing AI version51 vs. AI version79. AI version51 is yellow
+AI version51 scored against AI version79 10:0. 0 ties
+Testing AI version51 vs. AI version61. AI version51 is yellow
+AI version51 scored against AI version61 10:0. 0 ties
+Testing AI version51 vs. AI version50. AI version51 is yellow
+AI version51 scored against AI version50 4:6. 0 ties
+Testing AI version51 vs. AI version41. AI version51 is yellow
+AI version51 scored against AI version41 10:0. 0 ties
+Testing AI version51 vs. AI version73. AI version51 is yellow
+AI version51 scored against AI version73 2:8. 0 ties
+Testing AI version51 vs. AI version32. AI version51 is yellow
+AI version51 scored against AI version32 4:6. 0 ties
+Testing AI version51 vs. AI version76. AI version51 is yellow
+AI version51 scored against AI version76 3:7. 0 ties
+Testing AI version51 vs. AI version30. AI version51 is yellow
+AI version51 scored against AI version30 5:5. 0 ties
+Testing AI version51 vs. AI version70. AI version51 is yellow
+AI version51 scored against AI version70 0:10. 0 ties
+Testing AI version51 vs. AI version74. AI version51 is yellow
+AI version51 scored against AI version74 10:0. 0 ties
+Testing AI version51 vs. AI version62. AI version51 is yellow
+AI version51 scored against AI version62 5:5. 0 ties
+Testing AI version72 vs. AI version78. AI version72 is yellow
+AI version72 scored against AI version78 8:2. 0 ties
+Testing AI version72 vs. AI version79. AI version72 is yellow
+AI version72 scored against AI version79 8:2. 0 ties
+Testing AI version72 vs. AI version61. AI version72 is yellow
+AI version72 scored against AI version61 10:0. 0 ties
+Testing AI version72 vs. AI version50. AI version72 is yellow
+AI version72 scored against AI version50 5:5. 0 ties
+Testing AI version72 vs. AI version41. AI version72 is yellow
+AI version72 scored against AI version41 8:2. 0 ties
+Testing AI version72 vs. AI version73. AI version72 is yellow
+AI version72 scored against AI version73 5:5. 0 ties
+Testing AI version72 vs. AI version32. AI version72 is yellow
+AI version72 scored against AI version32 5:5. 0 ties
+Testing AI version72 vs. AI version76. AI version72 is yellow
+AI version72 scored against AI version76 0:10. 0 ties
+Testing AI version72 vs. AI version30. AI version72 is yellow
+AI version72 scored against AI version30 0:10. 0 ties
+Testing AI version72 vs. AI version70. AI version72 is yellow
+AI version72 scored against AI version70 0:10. 0 ties
+Testing AI version72 vs. AI version74. AI version72 is yellow
+AI version72 scored against AI version74 10:0. 0 ties
+Testing AI version72 vs. AI version62. AI version72 is yellow
+AI version72 scored against AI version62 6:4. 0 ties
+Testing AI version78 vs. AI version79. AI version78 is yellow
+AI version78 scored against AI version79 4:6. 0 ties
+Testing AI version78 vs. AI version61. AI version78 is yellow
+AI version78 scored against AI version61 3:7. 0 ties
+Testing AI version78 vs. AI version50. AI version78 is yellow
+AI version78 scored against AI version50 3:7. 0 ties
+Testing AI version78 vs. AI version41. AI version78 is yellow
+AI version78 scored against AI version41 5:5. 0 ties
+Testing AI version78 vs. AI version73. AI version78 is yellow
+AI version78 scored against AI version73 0:10. 0 ties
+Testing AI version78 vs. AI version32. AI version78 is yellow
+AI version78 scored against AI version32 0:10. 0 ties
+Testing AI version78 vs. AI version76. AI version78 is yellow
+AI version78 scored against AI version76 0:10. 0 ties
+Testing AI version78 vs. AI version30. AI version78 is yellow
+AI version78 scored against AI version30 0:10. 0 ties
+Testing AI version78 vs. AI version70. AI version78 is yellow
+AI version78 scored against AI version70 0:10. 0 ties
+Testing AI version78 vs. AI version74. AI version78 is yellow
+AI version78 scored against AI version74 2:8. 0 ties
+Testing AI version78 vs. AI version62. AI version78 is yellow
+AI version78 scored against AI version62 1:9. 0 ties
+Testing AI version79 vs. AI version61. AI version79 is yellow
+AI version79 scored against AI version61 5:5. 0 ties
+Testing AI version79 vs. AI version50. AI version79 is yellow
+AI version79 scored against AI version50 5:5. 0 ties
+Testing AI version79 vs. AI version41. AI version79 is yellow
+AI version79 scored against AI version41 4:6. 0 ties
+Testing AI version79 vs. AI version73. AI version79 is yellow
+AI version79 scored against AI version73 3:7. 0 ties
+Testing AI version79 vs. AI version32. AI version79 is yellow
+AI version79 scored against AI version32 0:10. 0 ties
+Testing AI version79 vs. AI version76. AI version79 is yellow
+AI version79 scored against AI version76 0:10. 0 ties
+Testing AI version79 vs. AI version30. AI version79 is yellow
+AI version79 scored against AI version30 0:10. 0 ties
+Testing AI version79 vs. AI version70. AI version79 is yellow
+AI version79 scored against AI version70 0:10. 0 ties
+Testing AI version79 vs. AI version74. AI version79 is yellow
+AI version79 scored against AI version74 5:5. 0 ties
+Testing AI version79 vs. AI version62. AI version79 is yellow
+AI version79 scored against AI version62 0:10. 0 ties
+Testing AI version61 vs. AI version50. AI version61 is yellow
+AI version61 scored against AI version50 0:10. 0 ties
+Testing AI version61 vs. AI version41. AI version61 is yellow
+AI version61 scored against AI version41 0:10. 0 ties
+Testing AI version61 vs. AI version73. AI version61 is yellow
+AI version61 scored against AI version73 0:10. 0 ties
+Testing AI version61 vs. AI version32. AI version61 is yellow
+AI version61 scored against AI version32 0:10. 0 ties
+Testing AI version61 vs. AI version76. AI version61 is yellow
+AI version61 scored against AI version76 0:10. 0 ties
+Testing AI version61 vs. AI version30. AI version61 is yellow
+AI version61 scored against AI version30 0:10. 0 ties
+Testing AI version61 vs. AI version70. AI version61 is yellow
+AI version61 scored against AI version70 0:10. 0 ties
+Testing AI version61 vs. AI version74. AI version61 is yellow
+AI version61 scored against AI version74 5:5. 0 ties
+Testing AI version61 vs. AI version62. AI version61 is yellow
+AI version61 scored against AI version62 0:10. 0 ties
+Testing AI version50 vs. AI version41. AI version50 is yellow
+AI version50 scored against AI version41 10:0. 0 ties
+Testing AI version50 vs. AI version73. AI version50 is yellow
+AI version50 scored against AI version73 10:0. 0 ties
+Testing AI version50 vs. AI version32. AI version50 is yellow
+AI version50 scored against AI version32 9:1. 0 ties
+Testing AI version50 vs. AI version76. AI version50 is yellow
+AI version50 scored against AI version76 0:10. 0 ties
+Testing AI version50 vs. AI version30. AI version50 is yellow
+AI version50 scored against AI version30 1:2. 7 ties
+Testing AI version50 vs. AI version70. AI version50 is yellow
+AI version50 scored against AI version70 0:10. 0 ties
+Testing AI version50 vs. AI version74. AI version50 is yellow
+AI version50 scored against AI version74 10:0. 0 ties
+Testing AI version50 vs. AI version62. AI version50 is yellow
+AI version50 scored against AI version62 10:0. 0 ties
+Testing AI version41 vs. AI version73. AI version41 is yellow
+AI version41 scored against AI version73 0:10. 0 ties
+Testing AI version41 vs. AI version32. AI version41 is yellow
+AI version41 scored against AI version32 6:4. 0 ties
+Testing AI version41 vs. AI version76. AI version41 is yellow
+AI version41 scored against AI version76 0:10. 0 ties
+Testing AI version41 vs. AI version30. AI version41 is yellow
+AI version41 scored against AI version30 0:10. 0 ties
+Testing AI version41 vs. AI version70. AI version41 is yellow
+AI version41 scored against AI version70 0:10. 0 ties
+Testing AI version41 vs. AI version74. AI version41 is yellow
+AI version41 scored against AI version74 9:1. 0 ties
+Testing AI version41 vs. AI version62. AI version41 is yellow
+AI version41 scored against AI version62 5:5. 0 ties
+Testing AI version73 vs. AI version32. AI version73 is yellow
+AI version73 scored against AI version32 3:7. 0 ties
+Testing AI version73 vs. AI version76. AI version73 is yellow
+AI version73 scored against AI version76 3:7. 0 ties
+Testing AI version73 vs. AI version30. AI version73 is yellow
+AI version73 scored against AI version30 4:6. 0 ties
+Testing AI version73 vs. AI version70. AI version73 is yellow
+AI version73 scored against AI version70 0:10. 0 ties
+Testing AI version73 vs. AI version74. AI version73 is yellow
+AI version73 scored against AI version74 10:0. 0 ties
+Testing AI version73 vs. AI version62. AI version73 is yellow
+AI version73 scored against AI version62 5:5. 0 ties
+Testing AI version32 vs. AI version76. AI version32 is yellow
+AI version32 scored against AI version76 0:10. 0 ties
+Testing AI version32 vs. AI version30. AI version32 is yellow
+AI version32 scored against AI version30 5:5. 0 ties
+Testing AI version32 vs. AI version70. AI version32 is yellow
+AI version32 scored against AI version70 0:10. 0 ties
+Testing AI version32 vs. AI version74. AI version32 is yellow
+AI version32 scored against AI version74 10:0. 0 ties
+Testing AI version32 vs. AI version62. AI version32 is yellow
+AI version32 scored against AI version62 10:0. 0 ties
+Testing AI version76 vs. AI version30. AI version76 is yellow
+AI version76 scored against AI version30 10:0. 0 ties
+Testing AI version76 vs. AI version70. AI version76 is yellow
+AI version76 scored against AI version70 1:9. 0 ties
+Testing AI version76 vs. AI version74. AI version76 is yellow
+AI version76 scored against AI version74 10:0. 0 ties
+Testing AI version76 vs. AI version62. AI version76 is yellow
+AI version76 scored against AI version62 9:1. 0 ties
+Testing AI version30 vs. AI version70. AI version30 is yellow
+AI version30 scored against AI version70 3:7. 0 ties
+Testing AI version30 vs. AI version74. AI version30 is yellow
+AI version30 scored against AI version74 10:0. 0 ties
+Testing AI version30 vs. AI version62. AI version30 is yellow
+AI version30 scored against AI version62 5:5. 0 ties
+Testing AI version70 vs. AI version74. AI version70 is yellow
+AI version70 scored against AI version74 10:0. 0 ties
+Testing AI version70 vs. AI version62. AI version70 is yellow
+AI version70 scored against AI version62 10:0. 0 ties
+Testing AI version74 vs. AI version62. AI version74 is yellow
+AI version74 scored against AI version62 0:10. 0 ties
+
+Total score:
+version64: 154
+version77: 110
+version71: 112
+version75: 119
+version63: 15
+version33: 120
+version53: 148
+version52: 121
+version51: 120
+version72: 116
+version78: 37
+version79: 62
+version61: 22
+version50: 119
+version41: 68
+version73: 112
+version32: 117
+version76: 166
+version30: 126
+version70: 185
+version74: 24
+version62: 93
+
+1. 70
+2. 76
+3. 64
+4. 53
+5. 30
+...
