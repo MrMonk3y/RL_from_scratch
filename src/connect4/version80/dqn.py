@@ -13,7 +13,7 @@ import numpy as np
 from collections import deque
 from keras.models import Model
 from keras.layers import Dense, Flatten, Input, Conv2D
-from keras.optimizers import Adam
+from keras.optimizers import RMSprop
 from keras.regularizers import l2
 from keras.layers.merge import Add
 from keras.layers.normalization import BatchNormalization
@@ -58,7 +58,7 @@ class DQNSolver:
 
         self.model = Model(in_x, policy_out, name="connect4_model")
 
-        self.optimizer = RMSprop(lr=0.00025, rho=0.9, epsilon=1e-6, decay=0.0) 
+        self.optimizer = RMSprop(lr=0.00025, rho=0.9, epsilon=1e-6, decay=0.0)
         self.model.compile(optimizer=self.optimizer, loss='categorical_crossentropy')
 
     def _build_residual_block(self, x):
