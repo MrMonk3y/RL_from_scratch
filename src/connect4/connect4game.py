@@ -25,7 +25,7 @@ class Connect4():
 
     def reset(self):
         self.field = np.zeros(shape=(self.rowSize, self.colSize), dtype=int)
-        self.turnCounter = 0
+        # self.turnCounter = 0 this caused an error. tunrCounter 0 would always lead to yellow starting. no matter who won the last game.
         return self.stateSplitter()
 
     def getNextPlayer(self):
@@ -44,7 +44,7 @@ class Connect4():
         self.turnCounter += 1
         if printflag == 1:
             self.printField()
-            
+
         if imageflag == 1:
             self.makeImage(self.turnCounter)
         reward = 0
@@ -69,7 +69,7 @@ class Connect4():
                 reward = 1
                 done = True
         return observation, reward, done, info
-    
+
     def stateSplitter(self): # makes a matrix for player 1 and one for palyer 2
         copy_player_1 = np.copy(self.field)
         copy_player_2 = np.copy(self.field)
@@ -77,7 +77,7 @@ class Connect4():
         copy_player_2[copy_player_2 == 1] = 0
         copy_player_2[copy_player_2 == 2] = 1
         return np.stack([copy_player_1, copy_player_2], axis = -1)
-        
+
     def printField(self):
         for i in range(np.size(self.field, 0)-1,-1,-1):
             for j in range(0, self.rowSize+1):
@@ -89,8 +89,8 @@ class Connect4():
                     print(self.field[i,j], end='  ')
             print('\n')
         print("\n")
-        
-        
+
+
     def checkWin(self): # Convolves pattern with field. If a 4 appears --> winner
         mask = np.zeros(shape=(self.rowSize, self.colSize), dtype=int)
         if self.turnCounter % 2:
@@ -105,7 +105,7 @@ class Connect4():
         k2 = np.array([[1,1,1,1]])
         k3 = np.array([[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]])
         k4 = np.array([[0,0,0,1],[0,0,1,0],[0,1,0,0],[1,0,0,0]])
-        
+
         convVertical = convolve(mask, k1, mode='constant', cval=0)
         if 4 in convVertical:
             return possbileWinner
@@ -118,7 +118,7 @@ class Connect4():
         convVertical = convolve(mask, k4, mode='constant', cval=0)
         if 4 in convVertical:
             return possbileWinner
-        
+
         return 0
 
     def validMoves(self): #returns an array colSize long with ones for validMoves
@@ -128,10 +128,10 @@ class Connect4():
             if (selectedRow==0).any() == 0: # if full return -1
                 validMovesArray[i] = 0
         return validMovesArray
-    
-    def sample(self): #returns a valid sample move 
+
+    def sample(self): #returns a valid sample move
         return choice(np.where(self.validMoves())[0]) # [0] to get it out of the tuple
-    
+
     def makeImage(self, i): #makes an image from the current state
         data = np.ones((self.rowSize, self.colSize, 3), dtype=np.uint8)
         #data = data*255 #white background
@@ -153,10 +153,10 @@ class Connect4():
             labelleft=False,
             labelbottom=False) # labels along the bottom edge are off
 
-        ax.grid(which='minor', color='w', linestyle='-', linewidth=2)    
+        ax.grid(which='minor', color='w', linestyle='-', linewidth=2)
         plt.savefig("move%02d.png" % i, bbox_inches='tight', pad_inches = 0)
         plt.close()
-        
+
     def makeVideo(self, i): #makes a video out of saved images
         #print("Saving Video...")
         FNULL = open(os.devnull, 'w') #subprocess ouput redirected to devnull
@@ -165,11 +165,11 @@ class Connect4():
             "game%02d.mp4" % i
         ], stdout=FNULL, stderr=subprocess.STDOUT)
         self.removeOldImages()
-    
+
     def removeOldImages(self):
         for file_name in glob.glob("*.png"):
             os.remove(file_name)
-            
+
     def removeOldVideos(self):
         for file_name in glob.glob("*.mp4"):
             os.remove(file_name)
@@ -177,7 +177,7 @@ class Connect4():
 if __name__ == "__main__":
     game = Connect4()
     print("Player {}'s turn".format(game.getNextPlayer() ))
-    
+
     while 1:
         info = 1
         while info != None:
@@ -193,4 +193,3 @@ if __name__ == "__main__":
             observation, reward, done, info = game.makeMove(2,userInput, 1)
             if info != None:
                 print(info)
-
