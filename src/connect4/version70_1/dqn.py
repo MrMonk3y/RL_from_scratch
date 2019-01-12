@@ -21,7 +21,7 @@ from keras.layers.core import Activation
 
 GAMMA = 0.95
 
-MEMORY_SIZE = 1000000
+MEMORY_SIZE = 500000
 BATCH_SIZE = 512
 
 EXPLORATION_MAX = 1.0
