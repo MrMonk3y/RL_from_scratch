@@ -45,9 +45,9 @@ def connect4dqn(folder):
     dqn_solver = solver(observation_space, action_space)
 
     run = 0
-
+    state = env.reset() #moved one loop up. otherwise player two wont be able to start if player one wins
     while True:
-        state = env.reset() #moved one loop up. otherwise player two wont be able to start if player one wins
+
         run += 1
         if run % SAVE_EVERY_K_GAMES == 0 :
             print('Saving weights and starting evaluation...')
