@@ -25,7 +25,11 @@ class Connect4():
 
     def reset(self):
         self.field = np.zeros(shape=(self.rowSize, self.colSize), dtype=int)
-        # self.turnCounter = 0 this caused an error. tunrCounter 0 would always lead to yellow starting. no matter who won the last game.
+        self.turnCounter = 0
+        return self.stateSplitter()
+
+    def soft_reset(self):
+        self.field = np.zeros(shape=(self.rowSize, self.colSize), dtype=int)
         return self.stateSplitter()
 
     def getNextPlayer(self):
