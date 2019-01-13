@@ -47,7 +47,7 @@ def connect4dqn(folder):
     run = 0
     state = env.reset() #moved one loop up. otherwise player two wont be able to start if player one wins
     while True:
-
+        state = env.soft_reset() #dirty workaround. creates an empty board without interfering with the turn counter --> makes loser able to start next round 
         run += 1
         if run % SAVE_EVERY_K_GAMES == 0 :
             print('Saving weights and starting evaluation...')
