@@ -8,6 +8,8 @@ Created on Fri Jan  4 12:32:27 2019
 import os
 import sys
 import argparse
+import tensorflow as tf
+from keras.backend.tensorflow_backend import set_session
 from connect4game import Connect4
 from importlib import import_module
 
@@ -113,6 +115,13 @@ def ai_vs_human(version_name):
     env = Connect4()
     observation_space = env.reset().shape
     action_space = env.validMoves().size
+
+    config = tf.ConfigProto(
+        device_count = {'GPU': 1}
+    )
+    config.gpu_options.allow_growth = True
+    sess = tf.Session(config=config)
+    set_session(sess)
 
     try:
         solver = getattr(import_module("{}.dqn".format(version_name)), 'DQNSolver')
